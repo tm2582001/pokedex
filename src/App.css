@@ -1,0 +1,28 @@
+#root {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.background-pokeball-img {
+  top: -35px;
+  width: 22rem;
+  position: fixed;
+  left: -39px;
+  z-index: 0;
+  transform: rotate(333deg);
+  opacity: 0.5;
+}
+
+.App-title {
+  z-index: 1;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.pokemon-data-container {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
