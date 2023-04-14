@@ -1,6 +1,21 @@
 .sceleton-loading-image{
-    border-radius: 50%;
-    height: 140px;
+    width: 160px;
+    height: auto;
+    opacity:0.5;
+    fill:#000000;
+    fill-opacity:1;
+    stroke:none;
+    animation: pokeball-rotation 3s infinite linear;
+}
+
+@keyframes pokeball-rotation {
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 .sceleton-loading-id{

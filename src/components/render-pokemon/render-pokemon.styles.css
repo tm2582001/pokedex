@@ -18,12 +18,15 @@
 
 .render-pokemon-id {
   font-size: 18px;
+  opacity: 0.6;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .render-pokemon-name {
   margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .render-pokemon-name::first-letter {
